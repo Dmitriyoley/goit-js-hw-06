@@ -28,5 +28,5 @@ function onFormSubmit(event) {
    const formData = new FormData(event.currentTarget)
     console.log(formData);
   }
-  return form.reset();
+ formEl.reset();
 }
